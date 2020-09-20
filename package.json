@@ -2,14 +2,22 @@
   "name": "self-introduction",
   "version": "1.0.0",
   "description": "This program introduces the person whose name is Sangha Yoon. Also, he is a member of Heroku.",
+  "engines": {
+        "node": "12.x"
+  },
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/yoons4/self-introduction.git"
   },
+   "keyword": [
+    "nodejs",
+    "heroku"
+  ],
   "author": "Sangha Yoon",
   "license": "ISC",
   "bugs": {
